@@ -1,0 +1,11 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+#navbar {
+    position: absolute;
+    width: 300px;
+    background-color: aqua;
+    color: green;
+    height: 100%;
+}
