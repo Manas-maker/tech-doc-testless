@@ -6,15 +6,23 @@ body {
 
 main {
 
-    
+ margin-left: 405px;   
     
 }
 #navbar {
     display: flex;
     flex-direction: column;
     width: 400px;
-    background-color: aqua;
     color: green;
     height: 100%;
     position: fixed;
+    border-right: black solid;
+}
+
+.nav-link {
+    border-top: solid black;
+    border-width: 2px;
+    margin: 8px;
+    text-decoration: none;
+    color: black;
 }
