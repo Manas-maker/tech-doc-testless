@@ -26,3 +26,17 @@ main {
     text-decoration: none;
     color: black;
 }
+
+
+@media(max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+    #navbar {
+        position: relative;
+        width: 100vw;
+    }
+    main {
+        margin: 0px;
+    }
+}
