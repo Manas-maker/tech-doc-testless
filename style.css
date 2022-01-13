@@ -1,11 +1,20 @@
 body {
     padding: 0px;
     margin: 0px;
+    display: flex;
+}
+
+main {
+
+    
+    
 }
 #navbar {
-    position: absolute;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
     background-color: aqua;
     color: green;
     height: 100%;
+    position: fixed;
 }
