@@ -2,11 +2,14 @@ body {
     padding: 0px;
     margin: 0px;
     display: flex;
+    font-family: 'Open Sans', Arial, sans-serif;;
 }
 
 main {
 
  margin-left: 405px;   
+ font-size: x-large;
+ padding: 32px;
     
 }
 #navbar {
@@ -17,17 +20,35 @@ main {
     height: 100%;
     position: fixed;
     border-right: black solid;
+    padding: 0px;
+    margin: 0px;
+    font-size: larger;
 }
 
+#nav-header {
+    padding: 16px;
+    padding-left: 40px;
+}
 .nav-link {
     border-top: solid black;
     border-width: 2px;
-    margin: 8px;
+    margin: 0px;
     text-decoration: none;
     color: black;
+    padding: 8px;
 }
 
+.main-section header {
+    font-weight: bold;
+    margin-top: 8px;
+}
 
+#Reference header {
+    margin-top: 24px;
+}
+p, li, code {
+    font-size: 0.7em;
+}
 @media(max-width: 800px) {
     body {
         flex-direction: column;
@@ -38,5 +59,8 @@ main {
     }
     main {
         margin: 0px;
+        border-top: black solid;
+        border-width: 2px;
+        padding-top:  4px;
     }
 }
