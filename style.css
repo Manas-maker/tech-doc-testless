@@ -16,7 +16,6 @@ main {
     display: flex;
     flex-direction: column;
     width: 400px;
-    color: green;
     height: 100%;
     position: fixed;
     border-right: black solid;
@@ -27,7 +26,6 @@ main {
 
 #nav-header {
     padding: 16px;
-    padding-left: 40px;
 }
 .nav-link {
     border-top: solid black;
